@@ -11,6 +11,7 @@ import { MemoHook } from './componentes/06-memos/MemoHook'
 import { CallbackHooks } from './componentes/07-useCallback/CallbackHooks'
 import { Padre } from './componentes/tarea-memo/Padre'
 import { TodoApp } from './componentes/08-useReducer/TodoApp'
+import { MainApp } from './componentes/09-useContext/MainApp'
 
 export const HookApp = () => {
     return (
@@ -18,7 +19,8 @@ export const HookApp = () => {
             {/* <CounterApp /> */}
             {/* <FormWithCustomHook /> */}
             {/* <MultipleCustomHooks /> */}
-            <TodoApp />
+            {/* <TodoApp /> */}
+            <MainApp />
         </div>
     )
 }
